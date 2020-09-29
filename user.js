@@ -16,3 +16,5 @@ user_pref("app.normandy.enabled", false);
 user_pref("media.gmp-gmpopenh264.enabled", false);
 
 user_pref("network.captive-portal-service.enabled", false);
+
+user_pref("dom.push.connection.enabled", false);
