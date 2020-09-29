@@ -1,0 +1,1 @@
+# stop-firefox-automatic-connections
