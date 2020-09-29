@@ -1,5 +1,7 @@
 user_pref("extensions.blocklist.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+user_pref("browser.safebrowsing.provider.mozilla.gethashURL", "");
+user_pref("browser.safebrowsing.provider.mozilla.updateURL", "");
 
 user_pref("network.prefetch-next", false);
 user_pref("network.dns.disablePrefetch", true);
