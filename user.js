@@ -18,3 +18,5 @@ user_pref("media.gmp-gmpopenh264.enabled", false);
 user_pref("network.captive-portal-service.enabled", false);
 
 user_pref("dom.push.connection.enabled", false);
+
+user_pref("browser.search.suggest.enabled", false);
