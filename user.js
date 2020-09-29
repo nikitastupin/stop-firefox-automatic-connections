@@ -2,7 +2,7 @@ user_pref("extensions.blocklist.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 
 user_pref("network.prefetch-next", false);
-user_pref("network.dns.disablePrefetch", false);
+user_pref("network.dns.disablePrefetch", true);
 user_pref("network.http.speculative-parallel-limit", false);
 
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
