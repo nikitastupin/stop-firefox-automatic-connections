@@ -39,3 +39,7 @@ user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("toolkit.telemetry.server", "");
+
+// versioncheck-bg.addons.mozilla.org
+user_pref("extensions.update.enabled", false);
+user_pref("services.sync.prefs.sync.extensions.update.enabled", false);
