@@ -49,9 +49,7 @@ user_pref("services.sync.prefs.sync.extensions.update.enabled", false);
 // https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/237f78a1-ebf2-45d9-9e22-fef13784019b.ftl
 user_pref("services.settings.server", "");
 
-// Experimental, may break things!
-// Disable automatic updates
-// How to update Firefox manually https://support.mozilla.org/en-US/kb/update-firefox-latest-release
-user_pref("app.update.auto", false);
-// Check for updates once in a week (60 * 60 * 24 * 7 = 604800)
+// Disable automatic updates. How to update Firefox manually https://support.mozilla.org/en-US/kb/update-firefox-latest-release
+// user_pref("app.update.auto", false);
+// Another option is to check for updates less often
 // user_pref("app.update.interval", 604800);
