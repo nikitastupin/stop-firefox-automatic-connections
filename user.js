@@ -43,3 +43,8 @@ user_pref("toolkit.telemetry.server", "");
 // versioncheck-bg.addons.mozilla.org
 user_pref("extensions.update.enabled", false);
 user_pref("services.sync.prefs.sync.extensions.update.enabled", false);
+
+// Experimental, may break things!
+// https://firefox.settings.services.mozilla.com/v1/
+// https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/237f78a1-ebf2-45d9-9e22-fef13784019b.ftl
+user_pref("services.settings.server", "");
