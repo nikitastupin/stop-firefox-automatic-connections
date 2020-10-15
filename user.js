@@ -53,3 +53,7 @@ user_pref("services.settings.server", "");
 // user_pref("app.update.auto", false);
 // Another option is to check for updates less often
 // user_pref("app.update.interval", 604800);
+
+// Don't send update requests to proxy
+user_pref("network.proxy.no_proxies_on", "aus5.mozilla.org");
+user_pref("network.proxy.allow_hijacking_localhost", true);
