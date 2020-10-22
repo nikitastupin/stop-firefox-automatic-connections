@@ -9,7 +9,11 @@ user_pref("network.http.speculative-parallel-limit", false);
 
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
+
+// Disable geolocation services
 user_pref("browser.search.geoip.url", "");
+user_pref("browser.region.network.url", "");
+
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("extensions.getAddons.cache.enabled", false);
 
