@@ -21,8 +21,11 @@ user_pref("app.normandy.enabled", false);
 
 user_pref("media.gmp-gmpopenh264.enabled", false);
 
+// http://detectportal.firefox.com/success.txt
 user_pref("network.captive-portal-service.enabled", false);
-user_pref("captivedetect.canonicalURL", "");
+// http://detectportal.firefox.com/success.txt?ipv4
+// http://detectportal.firefox.com/success.txt?ipv6
+user_pref("network.connectivity-service.enabled", false);
 
 user_pref("dom.push.connection.enabled", false);
 
