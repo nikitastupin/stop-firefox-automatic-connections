@@ -65,5 +65,5 @@ user_pref("services.settings.server", "");
 // Can't stop or don't want to stop these so just don't send to proxy:
 //   - aus5.mozilla.org - update request
 //   - content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2020-11-04-15-03-37.chain - unknown
-user_pref("network.proxy.no_proxies_on", "aus5.mozilla.org,content-signature-2.cdn.mozilla.net");
+user_pref("network.proxy.no_proxies_on", "aus5.mozilla.org, content-signature-2.cdn.mozilla.net, firefox.settings.services.mozilla.com");
 user_pref("network.proxy.allow_hijacking_localhost", true);
